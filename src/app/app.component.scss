@@ -1,0 +1,26 @@
+#lady-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  background-color: #20164b;
+
+  .border-1 {
+    border: 20px solid #7521e4;
+  }
+
+  .border-2 {
+    border: 40px solid #01e4fb;
+  }
+
+  .border-3 {
+    border: 80px solid #fc30d1;
+  }
+
+  #lady-image {
+    max-height: 100vh;
+    max-width: 100vwk;
+  }
+}
