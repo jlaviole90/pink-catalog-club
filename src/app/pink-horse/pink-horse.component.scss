@@ -14,3 +14,10 @@
     transform: rotateY(360deg);
   }
 }
+
+@media screen and (max-width: 1199px) {
+  #image {
+    width: 50%;
+    height: 50%;
+  }
+}

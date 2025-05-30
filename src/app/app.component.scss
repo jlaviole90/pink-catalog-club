@@ -22,11 +22,9 @@
   .border-1 {
     border: 20px solid #7521e4;
   }
-
   .border-2 {
     border: 40px solid #01e4fb;
   }
-
   .border-3 {
     border: 80px solid #fc30d1;
   }
@@ -34,5 +32,49 @@
   #lady-image {
     max-height: 100vh;
     max-width: 100vwk;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #lady-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    span {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+
+      span {
+        width: 25vw;
+        height: 25vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        * {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+
+  .border-1 {
+    border: 7.5px solid #7521e4;
+  }
+  .border-2 {
+    border: 15px solid #01e4fb;
+  }
+  .border-3 {
+    border: 30px solid #fc30d1;
+  }
+    #lady-image {
+      max-height: 60vh;
+      max-width: 60vw;
+    }
   }
 }
