@@ -7,6 +7,18 @@
 
   background-color: #20164b;
 
+  span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+
+    span {
+      height: 200px;
+      width: 200px;
+    }
+  }
+
   .border-1 {
     border: 20px solid #7521e4;
   }
